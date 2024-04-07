@@ -1,3 +1,19 @@
+/* todas las paginas */
+.footer{
+    text-align: center;
+    color:#978f84;
+    font-size: 20px;
+    background-color:#d9d9db;
+    border-top-right-radius:30px;
+    border-top-left-radius: 30px;
+    height: 45px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 1290px;
+    margin-left: 105px;
+   }
+/* todas las paginas */
+
 /* registro */
 *{
 margin: 0;
@@ -35,7 +51,6 @@ color: #978f84 ;
     font-size: 18px;
 }
 
-
 .boton{
     width: 100%;
     border: 1px solid#978f84;
@@ -49,4 +64,7 @@ color: #978f84 ;
     text-align: center;
 }
 
+.footer{
+margin-top: 162px;
+}
 /* registro */
