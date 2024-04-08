@@ -92,3 +92,14 @@ volver{
 }
 
 /* tyc */
+
+/* comienzo de edicion de home.html */
+
+body.mainstructure{
+    
+}
+div.contenedorpadre{
+    background-color:#4a362f;
+    display:flex;
+
+}
