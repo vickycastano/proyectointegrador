@@ -101,5 +101,11 @@ body.mainstructure{
 div.contenedorpadre{
     background-color:#4a362f;
     display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
+img.im{
+    height: 100px;
 }
