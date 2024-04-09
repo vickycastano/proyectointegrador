@@ -104,9 +104,12 @@ body.mainstructure{
 }
 div.contenedorpadre{
     background-color:#4a362f;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 1000px;
     display:flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 
 }
@@ -114,3 +117,9 @@ img.im{
     height: 100px;
 }
 
+section.Accesorios{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
