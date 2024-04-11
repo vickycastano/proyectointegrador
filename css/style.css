@@ -123,4 +123,10 @@ section.Accesorios{
     flex-direction: row;
     justify-content: space-around;
 }
+div.fondoproductos{
+    background-color: #b9a199;
+}
+p.descriphome{
+    text-align: justify center;
+}
 /* home.html */
