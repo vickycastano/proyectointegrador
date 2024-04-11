@@ -19,14 +19,14 @@
 
 /* todas las paginas */
 
-/* registro */
+/* registro/login/recuperar contraseña */
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 
-.registro{
+.formulario{
 width: 400px;
 background-color: #d9d9db;
 padding: 35px;
@@ -36,7 +36,7 @@ border-radius: 4px;
 color: #978f84 ;
 }
 
-.registro h2{
+.formulario h2{
    font-size: 40px;
    margin-bottom:20px; 
 }
@@ -65,14 +65,14 @@ color: #978f84 ;
     font-size: 16px;
 }
 
-.paralogin{
+.linksformulario{
     text-align: center;
 }
 
 .footer{
 margin-top: 162px;
 }
-/* registro */
+/* registro/login/recuperar contraseña */
 /* tyc */
 
 .terminos{
