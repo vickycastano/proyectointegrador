@@ -97,7 +97,7 @@ text-decoration: underline;
 
 /* tyc */
 
-/* comienzo de edicion de home.html */
+/*  home.html */
 
 body.mainstructure{
     
@@ -123,3 +123,4 @@ section.Accesorios{
     flex-direction: row;
     justify-content: space-around;
 }
+/* home.html */
