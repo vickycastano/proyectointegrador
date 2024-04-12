@@ -1,9 +1,9 @@
 /* todas las paginas */
 .footer{
     text-align: center;
-    color:#978f84;
+    color: #4a362f ;
     font-size: 20px;
-    background-color:#d9d9db;
+    background-color: #978f84 ;
     border-top-right-radius:30px;
     border-top-left-radius: 30px;
     height: 45px;
@@ -28,12 +28,12 @@ box-sizing: border-box;
 
 .formulario{
 width: 400px;
-background-color: #d9d9db;
+background-color:#978f84;
 padding: 35px;
 margin: auto;
 margin-top: 100px;
 border-radius: 4px;
-color: #978f84 ;
+color:  #4a362f  ;
 }
 
 .formulario h2{
@@ -43,7 +43,7 @@ color: #978f84 ;
 
 .controles{
     width: 100%;
-    background-color: #d9d9db;
+    background-color: #f7f6f2;
     padding: 10px;
     border-radius: 4px;
     margin-bottom:16px ;
@@ -155,7 +155,7 @@ margin-top: 3px;
   
 .productos{
     width: 400px;
-    background-color: #d9d9db;
+    background-color:  #978f84;
     padding: 35px;
     margin: auto;
     margin-top: 100px;
@@ -200,7 +200,7 @@ height: 200px;
  }
  
  .navegador{
-    background-color:  #d9d9db ;
+    background-color:  #978f84  ;
     color: #978f84;
     margin: 15px;
     margin-top: 5px;
