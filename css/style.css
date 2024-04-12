@@ -10,7 +10,7 @@
     padding-top: 15px;
     padding-bottom: 20px;
     width: 1290px;
-    margin-left: 105px;
+    margin-left: 80px;
    }
 
 .fondo{
@@ -98,12 +98,9 @@ text-decoration: underline;
 /* tyc */
 
 /*  home.html */
-
-body.mainstructure{
-    
-}
+  
 div.contenedorpadre{
-    background-color:#d9d9db;
+    background-color:#f7f6f2;
     padding-left: 15px;
     padding-right: 15px;
     height: 1000px;
@@ -165,3 +162,47 @@ height: 200px;
     color: #4a362f;
 }
 /* detalle de porducto */
+
+/* header */
+.linksheader{
+    margin-left: 1290px;
+}
+
+.navegador1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+ }
+ 
+ .navegador{
+    background-color:  #d9d9db ;
+    color: #978f84;
+    margin: 15px;
+    margin-top: 5px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    
+
+.nav{
+    margin-top: 10px;
+}
+ }
+
+ .logo{
+    height: 150px;
+    width: auto;
+   
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.fondoheader{
+    background-color:  #d9d9db;
+}
+/* header */
