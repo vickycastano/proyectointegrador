@@ -103,7 +103,7 @@ body.mainstructure{
     
 }
 div.contenedorpadre{
-    background-color:#4a362f;
+    background-color:#d9d9db;
     padding-left: 15px;
     padding-right: 15px;
     height: 1000px;
@@ -123,9 +123,7 @@ section.Accesorios{
     flex-direction: row;
     justify-content: space-around;
 }
-div.fondoproductos{
-    background-color: #b9a199;
-}
+
 p.descriphome{
     text-align: justify center;
 }
