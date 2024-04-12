@@ -68,7 +68,17 @@ color:  #4a362f  ;
 .linksformulario{
     text-align: center;
 }
+.comprar{
+    font-size: 20px;
+    width: 15%;
+    border: 1px solid#978f84;
+    padding: 12px;
+    color: #978f84;
+    margin: 16px 0;
+    text-align: center;
+    
 
+}
 .footer{
 margin-top: 162px;
 }
