@@ -220,12 +220,12 @@ height: 200px;
     text-align: center;
     border-radius: 10px;
     border: 2px solid #4a362f;
+}
     
 
 .nav{
     margin-top: 10px;
 }
- }
 
  .logo{
     height: 150px;
@@ -242,3 +242,33 @@ height: 200px;
     background-color:  #d9d9db;
 }
 /* header */
+
+/* responsive */
+
+@media (width <= 1280px){
+
+    .fondoheader{
+    margin-left: 180px;
+    }
+   
+    .linksheader{
+        margin-left: 950px;
+
+    }
+
+    section.Accesorios{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .footer{
+        margin-left: 20px;
+        margin-top: 150px;
+    }
+}
+
+@media (width <=390){
+
+}
+
+
+/* responsive */
