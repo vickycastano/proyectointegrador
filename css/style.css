@@ -280,7 +280,7 @@ button.botoneshome{
 
 @media (width <= 375px) {
 
-    /* producto */
+    /* category */
     .fondoheader{
         margin-left: 700px;
     }
@@ -292,7 +292,7 @@ button.botoneshome{
        margin-left: 600px;
        margin-top: 20px;
     }
-    /* producto */
+    /* category */
 }
 
 /* responsive */
