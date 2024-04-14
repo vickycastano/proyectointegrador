@@ -323,3 +323,19 @@ body.backgroundcategory{
     background-color:#f7f6f2;
 }
 /*category*/
+
+/*responsive index.html*/
+@media (max-width : 420px) { 
+    .fondoindex{
+        width: 420px;
+        height: 800px;
+    }
+    section.Accesorios{
+        flex-direction: column;
+        width: 200px;
+        align-self: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    }
+/*responsive index.html*/
