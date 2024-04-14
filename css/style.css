@@ -212,6 +212,15 @@ button.botoneshome{
     margin-top: 3px;
 
 }
+h2.tituloindex{
+    color:#d9d9db;
+    margin-left: 40px;
+    background-color: #4a362f;
+    margin-left:  10px;
+    margin-top: 7px;
+    border: #4a362f;
+    border: 5px solid #4a362f;
+}
 
 /* home.html */
 
@@ -296,3 +305,21 @@ button.botoneshome{
 }
 
 /* responsive */
+
+
+/*category*/
+h2.titulocategory{
+    color:#d9d9db;
+    margin-left: 40px;
+    background-color: #4a362f;
+    margin-left:  10px;
+    margin-top: 58px;
+    border: #4a362f;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border: 5px solid #4a362f; 
+}
+body.backgroundcategory{
+    background-color:#f7f6f2;
+}
+/*category*/
