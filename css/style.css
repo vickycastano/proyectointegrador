@@ -121,6 +121,7 @@ color:  #4a362f  ;
 .linksformulario{
     text-align: center;
 }
+/* boton comprar*/
 .comprar{
     font-size: 20px;
     width: 15%;
@@ -129,7 +130,6 @@ color:  #4a362f  ;
     color: #978f84;
     margin: 16px 0;
     text-align: center;
-    
 
 }
 
