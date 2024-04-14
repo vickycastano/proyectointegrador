@@ -1,4 +1,12 @@
 /* todas las paginas */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+/* footer*/
 .footer{
     text-align: center;
     color: #4a362f ;
@@ -12,20 +20,64 @@
     width: 1290px;
     margin-left: 80px;
     border: 2px solid #4a362f;
+    margin-top: 150px;
    }
+
+/* footer*/
 
 .fondo{
     background-color:  #f7f6f2;
 }
 
+/* header */
+
+.linksheader{
+    margin-left: 1290px;
+}
+
+.navegador1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+ }
+ 
+ .navegador{
+    background-color:  #978f84;
+    color: #978f84;
+    margin: 15px;
+    margin-top: 5px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #4a362f;
+}
+    
+
+.nav{
+    margin-top: 10px;
+}
+
+ .logo{
+    height: 150px;
+    width: auto;
+   
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.fondoheader{
+    background-color: #f7f6f2;
+}
+
+/* header */
+
 /* todas las paginas */
 
 /* registro/login/recuperar contraseña */
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
 
 .formulario{
 width: 400px;
@@ -80,10 +132,10 @@ color:  #4a362f  ;
     
 
 }
-.footer{
-margin-top: 162px;
-}
+
+
 /* registro/login/recuperar contraseña */
+
 /* tyc */
 
 .terminos{
@@ -95,9 +147,9 @@ margin-top: 162px;
 }
 
 .terminosycondiciones{
-text-align: center;
-margin-top: 15px;
-text-decoration: underline;
+   text-align: center;
+   margin-top: 15px;
+   text-decoration: underline;
 
 }
 
@@ -151,22 +203,23 @@ div.cajashome{
 }
 
 button.botoneshome{
-background-color:#d9d9db;
-padding-bottom: 2px;
-padding-left: 2px;
-padding-right: 2px;
-padding-top:2px;
-border-radius: 4px;
-margin-top: 3px;
+    background-color:#d9d9db;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top:2px;
+    border-radius: 4px;
+    margin-top: 3px;
 
 }
+
 /* home.html */
 
 /* detalle de porducto */
   
 .productos{
     width: 400px;
-    background-color:  #978f84;
+    background-color:#978f84;
     padding: 35px;
     margin: auto;
     margin-top: 100px;
@@ -182,66 +235,23 @@ margin-top: 3px;
 }
 
 .productos img{
-margin-top: 8px;
-margin-bottom: 8px;
-width: auto;
-height: 200px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: auto;
+    height: 200px;
 }
 
 .productos h3{
- margin-top: 10px;
- font-size: 20px;
- color: #4a362f;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #4a362f;
 }
 
 .productos p{
     color: #4a362f;
 }
+
 /* detalle de porducto */
-
-/* header */
-.linksheader{
-    margin-left: 1290px;
-}
-
-.navegador1{
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
- }
- 
- .navegador{
-    background-color:  #978f84  ;
-    color: #978f84;
-    margin: 15px;
-    margin-top: 5px;
-    width: 250px;
-    height: 40px;
-    text-align: center;
-    border-radius: 10px;
-    border: 2px solid #4a362f;
-}
-    
-
-.nav{
-    margin-top: 10px;
-}
-
- .logo{
-    height: 150px;
-    width: auto;
-   
-}
-.logo1{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.fondoheader{
-    background-color:  #d9d9db;
-}
-/* header */
 
 /* responsive */
 
@@ -269,6 +279,5 @@ height: 200px;
 @media (width <=390){
 
 }
-
 
 /* responsive */
