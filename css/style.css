@@ -123,14 +123,20 @@ color:  #4a362f  ;
 }
 /* boton comprar*/
 .comprar{
+    color: #4a362f;
+    text-decoration: #4a362f;
     font-size: 20px;
     width: 15%;
-    border: 1px solid#978f84;
+    border: 2px solid #4a362f;
     padding: 12px;
     color: #978f84;
     margin: 16px 0;
-    text-align: center;
-
+    display: flex;
+    justify-content: center;
+margin-left: 43%;
+border-radius: 10px;
+background-color: #978f84;
+margin-top: 20%;
 }
 
 
