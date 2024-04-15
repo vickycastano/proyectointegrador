@@ -323,7 +323,7 @@ body.backgroundcategory{
 
 @media (width <= 375px) /*medida Iphone SE (para celular)*/ {
 
-    /* category */
+    /* category y index */
     .fondoheader{
         margin-left: 700px;
     }
@@ -341,26 +341,27 @@ body.backgroundcategory{
        margin-left: 600px;
        margin-top: 200px;
        margin-bottom: 300px;
+       width: 200px;
+       align-self: center;
+       justify-content: space-between;
     }
+
 
     .cajashome{
         margin-bottom: 150px;
     }
-    /* category */
-
-    /* index.html*/
     .fondoindex{
         width: 420px;
         height: 800px;
     }
-    section.Accesorios{
-        flex-direction: column;
-        width: 200px;
-        align-self: center;
-        justify-content: space-between;
-
+    h2.tituloindex{
+        text-align: center;
+        color: aqua;
+        margin-left: 100px;
     }
-/* index.html*/
-}
+
+    /* category */
+
+    
 
 /* responsive */
