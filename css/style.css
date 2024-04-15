@@ -299,12 +299,18 @@ body.backgroundcategory{
 /* todas las paginas */
     .footer{
         margin-left: 10px;
-        margin-top: 80px;
+       display: flex;
+       justify-content: center;
+       margin-top: 50%;
     }
 
     .linksheader{
-        margin-left: 1000px;
-    }
+        display: flex;  
+        justify-content: flex-start;
+        margin-left: 70%;
+
+
+  }
 
     .fondoheader{
         margin-left: 85px;
@@ -343,33 +349,53 @@ body.backgroundcategory{
     }
     h2.tituloindex{
         text-align: center;
-        color: aqua;
-        margin-left: 100px;
+        color: #d9d9db;
+       display: flex;
+       justify-content: center;
+       margin-left: 50%;
+       border-radius: 10px;
     }
-}
     /* category */
 
-    
-
-/* responsive */
-@media (width <= 375px) /*medida Iphone SE (para celular)*/ {
-
-    /* category y index */
-    .fondoheader{
-        margin-left: 700px;
-    }
-    .footer{
-        margin-left: 100px;
-    }
-
-    .linksheader{
-       
-    }
     .productos{
         display: flex;
-        flex-direction: column;
-        margin-left: 100px;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
     }
-    .
-}
+    .navegador{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    .navegador1{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        text-align: center;
+        font-size: smaller;
+    }
+    .linksheader{
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .formulario{
+        /*completar*/
+    }
+    .footer{
+        display: flex;
+        width: auto;
+        text-align: center;
+     }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+       flex-direction: row; 
+       color: #d9d9db;
+
+    }
+
