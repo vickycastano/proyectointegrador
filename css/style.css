@@ -293,12 +293,6 @@ body.backgroundcategory{
 /*category*/
 
 
-
-
-
-
-
-
 /* responsive */
 
 @media (width <= 1280px) /* medida Next hub max (para compu) */{
@@ -327,19 +321,6 @@ body.backgroundcategory{
     /* producto */
 }
 
-@media (width <= 375px) /*medida Iphone SE (para celular)*/ {
-
-    /* category y index */
-    .fondoheader{
-        margin-left: 700px;
-    }
-    .footer{
-        margin-left: 100px;
-    }
-
-    .linksheader{
-       
-    }
 
     section.Accesorios{
        display:flex;
@@ -371,3 +352,24 @@ body.backgroundcategory{
     
 
 /* responsive */
+@media (width <= 375px) /*medida Iphone SE (para celular)*/ {
+
+    /* category y index */
+    .fondoheader{
+        margin-left: 700px;
+    }
+    .footer{
+        margin-left: 100px;
+    }
+
+    .linksheader{
+       
+    }
+    .productos{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        justify-content: center;
+    }
+    .
+}
