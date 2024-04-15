@@ -20,7 +20,7 @@
     width: 1290px;
     margin-left: 80px;
     border: 2px solid #4a362f;
-    margin-top: 150px;
+    margin-top: 100px;
    }
 
 /* footer*/
@@ -234,6 +234,7 @@ h2.tituloindex{
     margin-top: 100px;
     border-radius: 5px;
     color: #978f84 ;
+    border: 3px solid #4a362f;
 
 }
 
@@ -260,52 +261,13 @@ h2.tituloindex{
     color: #4a362f;
 }
 
+.boton{
+    border: 2px solid #4a362f;
+}
+
+
+
 /* detalle de porducto */
-
-/* responsive */
-
-@media (width <= 1280px){
-
-    /* producto */
-    .fondoheader{
-    margin-left: 85px;
-    }
-   
-    .linksheader{
-        margin-left: 950px;
-
-    }
-
-    section.Accesorios{
-        margin-left: 50px;
-        margin-top: 100px;
-    }
-    .footer{
-        margin-left: 10px;
-        margin-top: 150px;
-    }
-    /* producto */
-}
-
-@media (width <= 375px) {
-
-    /* category */
-    .fondoheader{
-        margin-left: 700px;
-    }
-
-
-    section.Accesorios{
-       display:flex;
-       flex-direction: column;
-       margin-left: 600px;
-       margin-top: 20px;
-    }
-    /* category */
-}
-
-/* responsive */
-
 
 /*category*/
 h2.titulocategory{
@@ -324,8 +286,69 @@ body.backgroundcategory{
 }
 /*category*/
 
-/*responsive index.html*/
-@media (max-width : 420px) { 
+
+
+
+
+
+
+
+/* responsive */
+
+@media (width <= 1280px) /* medida Next hub max (para compu) */{
+/* todas las paginas */
+    .footer{
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+
+    .linksheader{
+        margin-left: 1000px;
+    }
+
+    .fondoheader{
+        margin-left: 85px;
+        }
+/* todas las paginas*/
+
+    /* producto */
+   
+    section.Accesorios{
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    /* producto */
+}
+
+@media (width <= 375px) /*medida Iphone SE (para celular)*/ {
+
+    /* category */
+    .fondoheader{
+        margin-left: 700px;
+    }
+    .footer{
+        margin-left: 100px;
+    }
+
+    .linksheader{
+       
+    }
+
+    section.Accesorios{
+       display:flex;
+       flex-direction: column;
+       margin-left: 600px;
+       margin-top: 200px;
+       margin-bottom: 300px;
+    }
+
+    .cajashome{
+        margin-bottom: 150px;
+    }
+    /* category */
+
+    /* index.html*/
     .fondoindex{
         width: 420px;
         height: 800px;
@@ -335,7 +358,9 @@ body.backgroundcategory{
         width: 200px;
         align-self: center;
         justify-content: space-between;
-        margin-bottom: 30px;
+
     }
-    }
-/*responsive index.html*/
+/* index.html*/
+}
+
+/* responsive */
