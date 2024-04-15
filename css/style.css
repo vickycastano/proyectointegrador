@@ -133,10 +133,10 @@ color:  #4a362f  ;
     margin: 16px 0;
     display: flex;
     justify-content: center;
-margin-left: 43%;
-border-radius: 10px;
-background-color: #978f84;
-margin-top: 20%;
+    margin-left: 43%;
+    border-radius: 10px;
+    background-color: #978f84;
+    margin-top: 20%;
 }
 
 
@@ -368,6 +368,7 @@ body.backgroundcategory{
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
+        text-align: center;
     }
     .navegador1{
         display: flex;
@@ -384,6 +385,7 @@ body.backgroundcategory{
     }
     .formulario{
         /*completar*/
+        margin-top: 10%;
     }
     .footer{
         display: flex;
@@ -397,5 +399,11 @@ body.backgroundcategory{
        flex-direction: row; 
        color: #d9d9db;
 
+    }
+    .comprar{
+        display: flex;
+        text-align: center;
+        font-size: medium;
+        margin-top: 40%;
     }
 
