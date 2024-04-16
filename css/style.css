@@ -378,7 +378,7 @@ body.backgroundcategory{
 
     /* todas las paginas*/
 .footer{
-    margin-top: 1690px;
+    margin-top: 1100px;
 }
 
 .fondoheader{
@@ -393,16 +393,13 @@ body.backgroundcategory{
 .linksheader{
     margin-left: 730px;
 }
-
-
-   /* todas las paginas*/
+/* todas las paginas*/
 
 /* formulario*/
 
 .formulario{
-    margin-left: 300px;
-    width: 700px;
-    height: auto;
+margin-top: 600px ;
+margin-left: 450px;
 }
 
 /* formulario*/
