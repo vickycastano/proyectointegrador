@@ -301,7 +301,7 @@ body.backgroundcategory{
         margin-left: 10px;
        display: flex;
        justify-content: center;
-       margin-top: 50%;
+       margin-top: 200px;
     }
 
     .linksheader{
@@ -325,8 +325,6 @@ body.backgroundcategory{
     }
 
     /* producto */
-}
-
 
     section.Accesorios{
        display:flex;
@@ -364,42 +362,8 @@ body.backgroundcategory{
         flex-wrap: wrap;
 
     }
-    .navegador{
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: row;
-        text-align: center;
-    }
-    .navegador1{
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: row;
-        text-align: center;
-        font-size: smaller;
-    }
-    .linksheader{
-        flex-direction: row;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    .formulario{
-        /*completar*/
-        margin-top: 10%;
-    }
-    .footer{
-        display: flex;
-        width: auto;
-        text-align: center;
-     }
+   
 
-    .nav{
-        display: flex;
-        justify-content: center;
-       flex-direction: row; 
-       color: #d9d9db;
-
-    }
     .comprar{
         display: flex;
         text-align: center;
@@ -407,3 +371,40 @@ body.backgroundcategory{
         margin-top: 40%;
     }
 
+}
+
+
+@media (width <= 375px) /* medida Iphone SE (para celu) */{
+
+    /* todas las paginas*/
+.footer{
+    margin-top: 1690px;
+}
+
+.fondoheader{
+ margin-left: 450px;
+ margin-bottom: 150px;
+}
+
+.logo1{
+    margin-left: 240px;
+}
+
+.linksheader{
+    margin-left: 750px;
+}
+
+   /* todas las paginas*/
+
+/* formulario*/
+
+.formulario{
+    margin-left: 300px;
+    width: 700px;
+    height: auto;
+}
+
+/* formulario*/
+
+
+}
