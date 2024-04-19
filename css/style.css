@@ -351,11 +351,40 @@ height: 60vh;
 /* formulario*/
 
 .formulario{
-margin-top: 600px ;
-margin-left: 250px;
+margin-top: 200px ;
+margin-left: 300px;
 width: 250vw;
-height: 150vh;
+height: 180vh;
 }
+
+.formulario a{
+    font-size: 35px;
+    margin-left: 45px
+}
+
+
+
+.linksformulario{
+    margin-top: 40px;
+}
+
+.formulario p{
+    font-size: 35px;
+    margin-left: 45px;
+}
+
+.parafo{
+    font-size: 35px;
+    margin-left: 45px;
+}
+
+
+.tyc{
+    width: 15vw;
+    height: 15vh;
+    margin-top: 35px;
+}
+
 
 .formulario h2{
     font-size: 70px;
@@ -367,9 +396,6 @@ height: 150vh;
     margin-top: 10px;
 }
 
-.tyc{
-    font-size: 900px;
-}
 
 .boton{
     font-size: 50px;
