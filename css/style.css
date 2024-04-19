@@ -309,7 +309,6 @@ body.backgroundcategory{
         justify-content: flex-start;
         margin-left: 70%;
 
-
   }
 
     .fondoheader{
@@ -378,7 +377,10 @@ body.backgroundcategory{
 
     /* todas las paginas*/
 .footer{
-    margin-top: 1100px;
+    margin-top: 280px;
+    font-size: 40px;
+    width: 380vw;
+    height: 15vh;
 }
 
 .fondoheader{
@@ -388,10 +390,22 @@ body.backgroundcategory{
 
 .logo1{
     margin-left: 240px;
+    
+}
+
+.logo{
+width: 130vw;
+height: 60vh;
+}
+
+.navegador{
+    width: 250vw;
+    margin-left: 150px;
 }
 
 .linksheader{
-    margin-left: 730px;
+    margin-left: 560px;
+    font-size: 35px;
 }
 /* todas las paginas*/
 
@@ -399,10 +413,44 @@ body.backgroundcategory{
 
 .formulario{
 margin-top: 600px ;
-margin-left: 450px;
+margin-left: 250px;
+width: 250vw;
+height: 150vh;
 }
 
+.formulario h2{
+    font-size: 70px;
+    margin-top: 170px;
+}
+
+.controles{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.tyc{
+    font-size: 900px;
+}
+
+.boton{
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+
+
 /* formulario*/
+
+/* carrito*/
+
+.comprar{
+   font-size: 40px;
+   width: 60vw;
+   margin-top: 1550px;
+   margin-left: 600px
+}
+
+/* carito*/
 
 
 }
