@@ -436,7 +436,7 @@ h2.tituloindex{
 }
 /*footer html */
 .indexf{
-    margin-top: 2000vh;
+    margin-top: 2300vh;
 }
 /*footer html */
   /* home */
@@ -500,4 +500,9 @@ h2.tituloindex{
 }
 /* header */
 
+.contenedorpadrecategory{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
 }
