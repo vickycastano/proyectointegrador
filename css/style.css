@@ -299,10 +299,11 @@ body.backgroundcategory{
 
     /* todas las paginas*/
 .footer{
-    margin-top: 280px;
+    margin-top: 270px;
     font-size: 40px;
     width: 380vw;
     height: 15vh;
+    margin-left: 5px;
 }
 
 .fondoheader{
@@ -322,11 +323,11 @@ height: 60vh;
 
 .navegador{
     width: 250vw;
-    margin-left: 150px;
+    margin-left: 250px;
 }
 
 .linksheader{
-    margin-left: 560px;
+    margin-left: 500px;
     font-size: 35px;
 }
 /* todas las paginas*/
