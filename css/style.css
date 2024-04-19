@@ -121,7 +121,7 @@ color:  #4a362f  ;
 .linksformulario{
     text-align: center;
 }
-/* boton comprar*/
+/* carrito*/
 .comprar{
     color: #4a362f;
     text-decoration: #4a362f;
@@ -136,9 +136,16 @@ color:  #4a362f  ;
     margin-left: 43%;
     border-radius: 10px;
     background-color: #978f84;
-    margin-top: 20%;
+    margin-top: 30px;
 }
 
+div.cajashome.producto{
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+
+/* carrito*/
 
 /* registro/login/recuperar contraseña */
 
@@ -381,6 +388,8 @@ height: 180vh;
     margin-top: 60px;
 }
 
+
+
 /* formulario*/
 
  /* home */
@@ -454,10 +463,14 @@ h2.tituloindex{
 /* carrito*/
 
 .comprar{
-   font-size: 40px;
-   width: 60vw;
-   margin-top: 1550px;
-   margin-left: 600px
+   font-size: 50px;
+   width: 80vw;
+   margin-top: 150px;
+   margin-left: 640px
+}
+
+.productopadre{
+    margin-left: 330px;
 }
 
 
@@ -523,6 +536,14 @@ h2.tituloindex{
 }
 /* category */
 
+/* productos */
+.productos{
+  margin-left: 550px;
+  margin-bottom: 570px;
+}
 
+
+
+/* productos */
 
 }
