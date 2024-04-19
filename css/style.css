@@ -203,6 +203,9 @@ h2.tituloindex{
     border: #4a362f;
     border: 5px solid #4a362f;
 }
+.precio{
+    font-size: 18px;
+}
 
 /* home.html */
 
@@ -410,6 +413,7 @@ height: 180vh;
  }
  img.im{
     height: 80vh;
+    width: 200vw;
     margin-left:  25px;
     margin-top: 35px;
     margin-right:  15px;
@@ -435,6 +439,9 @@ h2.tituloindex{
     margin-left: -90px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.precio{
+    font-size: 20vw;
 }
 /*footer html */
 .indexf{
