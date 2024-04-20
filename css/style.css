@@ -15,7 +15,7 @@ a{
     color:  #4a362f ;
     }
 
-    
+/* todas las paginas */
 /* footer*/
 
 .footer{
@@ -42,7 +42,7 @@ a{
     margin-left: 1290px;
 }
 
- .navegador{
+.navegador{
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -62,7 +62,6 @@ a{
     border: 2px solid #4a362f;
 }
 
-
 .logo{
     height: 150px;
     width: auto;
@@ -79,9 +78,6 @@ a{
 }
 
 /* header */
-
-/* todas las paginas */
-
 /* registro/login/recuperar contraseña */
 
 .formulario{
@@ -127,6 +123,7 @@ a{
 .linksformulario{
     text-align: center;
 }
+/* registro/login/recuperar contraseña */
 /* carrito*/
 .comprar{
     color: #4a362f;
@@ -155,9 +152,6 @@ div.cajashome.carrito{
 }
 
 /* carrito*/
-
-/* registro/login/recuperar contraseña */
-
 /*  home.html */
   
 div.contenedorpadre{
@@ -266,8 +260,6 @@ h2.tituloindex{
     border: 2px solid #4a362f;
 }
 
-
-
 /* detalle de porducto */
 
 /*category*/
@@ -312,7 +304,7 @@ body.backgroundcategory{
     
 }
 
-    .footer{
+.footer{
     margin-top: 270px;
     font-size: 40px;
     width: 380vw;
@@ -349,10 +341,10 @@ body.backgroundcategory{
 /* formulario*/
 
 .formulario{
-margin-top: 200px ;
-margin-left: 300px;
-width: 250vw;
-height: 180vh;
+    margin-top: 200px ;
+    margin-left: 300px;
+    width: 250vw;
+    height: 180vh;
 }
 
 .formulario a{
