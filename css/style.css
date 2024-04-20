@@ -5,8 +5,19 @@
     padding: 0;
     box-sizing: border-box;
     }
+
+.fondo{
+    background-color:  #f7f6f2;
+    }
+
+a{
+    text-decoration: none;
+    color:  #4a362f ;
+    }
+
     
 /* footer*/
+
 .footer{
     text-align: center;
     color: #4a362f ;
@@ -25,40 +36,34 @@
 
 /* footer*/
 
-.fondo{
-    background-color:  #f7f6f2;
-}
-
 /* header */
 
 .linksheader{
     margin-left: 1290px;
 }
 
-.navegador1{
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
- }
- 
  .navegador{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+}
+   
+
+.navegador li{
     background-color:  #978f84;
     color: #978f84;
-    margin: 15px;
     margin-top: 5px;
     width: 250px;
-    height: 40px;
+    height:auto;
     text-align: center;
+    padding: 7px;
     border-radius: 10px;
     border: 2px solid #4a362f;
 }
-    
 
-.nav{
-    margin-top: 10px;
-}
 
- .logo{
+.logo{
     height: 150px;
     width: auto;
    
@@ -80,13 +85,13 @@
 /* registro/login/recuperar contraseña */
 
 .formulario{
-width: 400px;
-background-color:#978f84;
-padding: 35px;
-margin: auto;
-margin-top: 100px;
-border-radius: 4px;
-color:  #4a362f  ;
+    width: 400px;
+    background-color:#978f84;
+    padding: 35px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color:  #4a362f  ;
 }
 
 .formulario h2{
@@ -139,11 +144,14 @@ color:  #4a362f  ;
     margin-top: 30px;
 }
 
-div.cajashome.producto{
+div.cajashome.carrito{
     margin-bottom: 50px;
     margin-top: 5px;
 }
 
+.productopadre{
+    margin-top: 40px;
+}
 
 /* carrito*/
 
@@ -284,19 +292,22 @@ body.backgroundcategory{
 @media (width <= 375px) /* medida Iphone SE (para celu) */{
 
     /* todas las paginas*/
-.navegador1{
+
+.navegador{
     display:flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     
     
 }
 
-.navegador{
+.navegador li{
     padding-left: 20px;
     padding-right: 20px;
     height: 7vh;
-    font-size: 20px;
+    width: 250vw;
+    font-size: 35px;
+    margin: 5px;
     
 }
 
@@ -309,8 +320,8 @@ body.backgroundcategory{
 }
 
 .fondoheader{
- margin-left: 450px;
- margin-bottom: 150px;
+     margin-left: 450px;
+    margin-bottom: 150px;
 }
 
 .logo1{
@@ -319,8 +330,8 @@ body.backgroundcategory{
 }
 
 .logo{
-width: 130vw;
-height: 60vh;
+    width: 130vw;
+    height: 60vh;
 }
 
 .navegador{
@@ -348,8 +359,6 @@ height: 180vh;
     margin-left: 45px
 }
 
-
-
 .linksformulario{
     margin-top: 40px;
 }
@@ -364,13 +373,11 @@ height: 180vh;
     margin-left: 45px;
 }
 
-
 .tyc{
     width: 15vw;
     height: 15vh;
     margin-top: 35px;
 }
-
 
 .formulario h2{
     font-size: 70px;
@@ -387,8 +394,6 @@ height: 180vh;
     font-size: 50px;
     margin-top: 60px;
 }
-
-
 
 /* formulario*/
 
@@ -473,6 +478,16 @@ h2.tituloindex{
     margin-left: 330px;
 }
 
+.cajashomec.carrito{
+    margin-top: 100px;
+    width: 240vw;
+    height:140vh;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 330px;
+}
+
 
 /* carito*/
 /* header */
@@ -538,8 +553,23 @@ h2.tituloindex{
 
 /* productos */
 .productos{
-  margin-left: 550px;
-  margin-bottom: 570px;
+    margin-top: 100px;
+    width: 240vw;
+    height:180vh;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 330px;  
+}
+
+.productos h1{
+    width: 240vw;
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+    margin-left: -90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* productos */
