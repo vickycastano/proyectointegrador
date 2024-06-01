@@ -15,6 +15,8 @@ if (inputcontrasena.value == '') {
     alert("La contraseña debe tener al menos 6 caracteres" )
   })
 
+
+
 // guardar en localStronge
 
 let datoemail = location.search
@@ -28,11 +30,6 @@ let contrasena = queryObj1.get('contrasena')
 console.log(contrasena);
 
 
-//evento de q si hago click en submit me lleve a home 
-
-
-
-// ocultar el sing in y registro 
 
 
   
