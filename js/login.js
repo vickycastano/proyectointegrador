@@ -11,18 +11,9 @@ alert("Por favor complete el campo email")
 }
 if (inputcontrasena.value == '') {
     alert("Por favor complete el campo contraseña")
-  }
-
- })
-
-
-
-
-// ocultar el sing in y registro 
-function ocultar(){
-document.querySelector('#ocultar').style.display = 'none'
-}
-
+  }else if (inputcontrasena.value.length <6 )
+    alert("La contraseña debe tener al menos 6 caracteres" )
+  })
 
 // guardar en localStronge
 
@@ -33,6 +24,12 @@ console.log(email);
 
 let datocontrasena = location.search 
 let queryObj1 = new URLSearchParams(datocontrasena)
-let contrasena = queryObj.get('contrasena')
+let contrasena = queryObj1.get('contrasena')
 console.log(contrasena);
 
+
+// ocultar el sing in y registro 
+function ocultar(){
+  document.querySelector('#ocultar').style.display = 'none'
+  }
+  
