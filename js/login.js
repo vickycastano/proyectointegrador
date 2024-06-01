@@ -28,8 +28,11 @@ let contrasena = queryObj1.get('contrasena')
 console.log(contrasena);
 
 
+//evento de q si hago click en submit me lleve a home 
+
+
+
 // ocultar el sing in y registro 
-function ocultar(){
-  document.querySelector('#ocultar').style.display = 'none'
-  }
+
+
   
