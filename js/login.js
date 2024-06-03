@@ -17,7 +17,16 @@ if (inputcontrasena.value == '') {
 
 
 
-// guardar en localStronge
+// NO FUNCIONA 
+let irahome = document.querySelector('#boton')
+irahome.addEventListener('submit', function(){
+  window.location.herf = 'index.html'
+})
+
+
+
+
+// guardar en localStronge // VER SI ESTA BIEN 
 
 let datoemail = location.search
 let queryObj = new URLSearchParams(datoemail)
