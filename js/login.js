@@ -5,7 +5,7 @@ let inputcontrasena = document.querySelector('#contrasena')
 let form = document.querySelector('.formulario')
 
 form.addEventListener('submit', function(e){
-e.preventDefault();
+//e.preventDefault();
 if (inputemail.value == '') { 
 alert("Por favor complete el campo email")
 }
@@ -17,28 +17,32 @@ if (inputcontrasena.value == '') {
 
 
 
-// NO FUNCIONA 
-let irahome = document.querySelector('#boton')
-irahome.addEventListener('submit', function(){
-  window.location.herf = 'index.html'
-})
 
 
 
 
-// guardar en localStronge // VER SI ESTA BIEN 
 
-let datoemail = location.search
-let queryObj = new URLSearchParams(datoemail)
-let email = queryObj.get("email")
-console.log(email);
+// guardar en localStronge // 
 
-let datocontrasena = location.search 
-let queryObj1 = new URLSearchParams(datocontrasena)
-let contrasena = queryObj1.get('contrasena')
-console.log(contrasena);
+let QS = location.search
+let QS1 = new URLSearchParams(QS)
 
+let searchQS = QS1.get('email')
 
+let qs = location.search
+let qs1 = new URLSearchParams(qs)
+let email = qs1.get('email')
 
+console.log(email)
 
+let QSS = location.search
+let QSS1 = new URLSearchParams(QSS)
+
+let searchQS1 = QSS1.get('contrasena')
+
+let qss = location.search 
+let qss1 = new URLSearchParams(qss)
+let contrasena = qss1.get('contrasena')
+
+console.log(contrasena)
   
