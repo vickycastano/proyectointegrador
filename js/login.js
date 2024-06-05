@@ -10,9 +10,7 @@ if (inputemail.value == '') {
 alert("Por favor complete el campo email")
 }else { 
   emailcorrecto = true 
-
-}
-if (inputcontrasena.value == '') {
+}if (inputcontrasena.value == '') {
     alert("Por favor complete el campo contraseña")
    
   }else if (inputcontrasena.value.length <6 ){
@@ -50,3 +48,8 @@ let contrasena = qss1.get('contrasena')
 
 console.log(contrasena)
   
+if (email){
+  document.querySelector('.saludo').innerText= "Bienvenido:" + email + ""
+}
+console;log(email)
+
