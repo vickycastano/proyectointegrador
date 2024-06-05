@@ -22,6 +22,7 @@ if (inputcontrasena.value == '') {
 
 
 
+
 // guardar en localStronge // 
 
 let QS = location.search

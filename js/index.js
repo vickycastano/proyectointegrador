@@ -1,4 +1,6 @@
 fetch('https://fakestoreapi.com/products')
+
+
 .then(function(response){
     return response.json()
 })
