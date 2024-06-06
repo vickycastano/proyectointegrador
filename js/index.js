@@ -19,7 +19,7 @@ for (let i = 0; i < arrayacesorios.length; i++) {
   <a class="botoneshome" href="./producto.html?id=${arrayacesorios[i].id}">VER MAS</a>
   </div>
   ` 
-  
+
 section.innerHTML = acesorrios
 
 }
