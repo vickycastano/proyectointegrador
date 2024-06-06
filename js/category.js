@@ -7,3 +7,6 @@
 //<a href="./cart.html?id=${arrayproductos1.id}">AGREGAR</a>
 //<a href="./producto.html?id=${arrayproductos1.id}">VER MAS</a>
 //</div>`
+
+
+// if con si viene del link x va a la api x, y los otros los oculto y viceversa, deberian 3 apis (???)
