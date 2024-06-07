@@ -73,3 +73,16 @@ for (let i = 0; i < descripcion.length; i++) {
   console.log(error)
 })
 
+// electronica
+fetch('https://fakestoreapi.com/products/category/jewelery')
+  .then (function(response){
+    return response.json();
+  })
+  .then (function (data){
+    console.log(data);
+  })
+  .catch(function (){
+    
+  }
+
+  )
