@@ -74,15 +74,34 @@ for (let i = 0; i < descripcion.length; i++) {
 })
 
 // electronica
-fetch('https://fakestoreapi.com/products/category/jewelery')
+fetch('https://fakestoreapi.com/products/category/electronics')
   .then (function(response){
     return response.json();
   })
   .then (function (data){
-    console.log(data);
-  })
-  .catch(function (){
+    console.log(data); 
+    let arrayelectronics = data;
+    let section = document.querySelector(`.categoriaelectronica`);
+    let electronica = [];
     
+    for (let i = 0; i <arrayelectronics.length ; i++) {
+      electronica+=` <div>
+      <img src="${arrayelectronics[i].image}" class="im">
+     <h1>${arrayelectronics[i].title}</h1>
+     <p>${arrayelectronics[i].description}</p>
+     <h3>${arrayelectronics[i].price}</h3>
+     <a  href="./producto.html?id=${arrayelectronics[i].id}">VER MAS</a>
+     </div>`
+      
+    }
+
+    section.innerHTML= electronica
+
+
+
+  })
+  .catch(function (error){
+    console.log(error);
   }
 
   )
