@@ -109,6 +109,23 @@ fetch('https://fakestoreapi.com/products/category/electronics')
 
 
 
+  // probar algo en category 
+  let queryString = location.search;
+  let queryStringObj = new URLSearchParams(queryString);
+  let categoria = queryStringObj.get('category'); 
+  console.log(categoria);
+
+let boton= {}
+let acesorios = document.querySelector('.electronico')
+acesorios.addEventListener( 'click',function(e){
+e.preventDefault()
+
+localStorage.setItem("electronico", categoria);
+JSON.parse(localStorage.getItem("electronico"));
+console.log(localStorage);
+window.location.href = "category.html"
+
+})
 
 
 
@@ -117,4 +134,9 @@ fetch('https://fakestoreapi.com/products/category/electronics')
 
 
 
+
+
+
+
+  
 
