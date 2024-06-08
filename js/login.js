@@ -33,6 +33,3 @@ this.submit()
   
 
 
-// guardar en localStronge // 
-
-

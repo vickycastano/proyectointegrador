@@ -80,14 +80,39 @@ for (let i = 0; i < descripcion.length; i++) {
   
 }
 
-
-
-
 })
 .catch(function(error){
 console.log(error)
 })
 
 
+//ELECTRONICA 
 
-//estilo acesorios 
+
+fetch('https://fakestoreapi.com/products/category/electronics')
+
+.then(function(response){
+return response.json()
+})
+.then(function(data){
+console.log(data)
+})
+.catch(function(error){
+  console.log(error)
+})
+
+
+
+//ROPA MUJER 
+
+fetch('https://fakestoreapi.com/products/category/women\'s clothing')
+.then(function(response){
+  return response.json()
+  })
+  .then(function(data){
+  console.log(data)
+  })
+  .catch(function(error){
+    console.log(error)
+  })
+  
