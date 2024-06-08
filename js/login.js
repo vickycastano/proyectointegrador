@@ -3,6 +3,9 @@ let inputemail = document.querySelector('#email')
 let inputcontrasena = document.querySelector('#contrasena') 
 let form = document.querySelector('.formulario')
 
+let user= {}
+
+
 //VER
 
 form.addEventListener('submit', function(e){
@@ -21,7 +24,9 @@ if (inputcontrasena.value == '') {
 
 
   }else {
-    
+    user.inputemail = inputemail.value
+    user.inputcontrasena = inputcontrasena.value
+    localStorage.setItem('user',JSON.stringify(user))
 this.submit()
   }
 })

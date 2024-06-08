@@ -5,6 +5,7 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
 })
 .then(function(data){
   console.log(data)
+
 let arrayacesorios = data 
 let section = document.querySelector(".categoriaacesorios")
 let acesorrios = []
@@ -12,7 +13,7 @@ let acesorrios = []
 for (let i = 0; i < arrayacesorios.length; i++) {
   acesorrios +=  `
   <div>
-   <img src="${arrayacesorios[i].image}" class="im">
+   <img src="${arrayacesorios[i].image}" >
   <h1>${arrayacesorios[i].title}</h1>
   <p>${arrayacesorios[i].description}</p>
   <h3>${arrayacesorios[i].price}</h3>
