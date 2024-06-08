@@ -5,9 +5,6 @@ let form = document.querySelector('.formulario')
 
 let user= {}
 
-
-//VER
-
 form.addEventListener('submit', function(e){
 e.preventDefault()
 

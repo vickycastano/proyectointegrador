@@ -7,6 +7,7 @@ let saludo = document.querySelector('.saludo')
 if (data) {
     objetoUsuario = data 
     saludo.innerText = "Bienvenido: " + recuperaruser 
+   
 //ver lo de el logout 
     console.log(objetoUsuario)
 
