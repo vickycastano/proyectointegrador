@@ -94,20 +94,18 @@ fetch('https://fakestoreapi.com/products/category/electronics')
      <a  href="./producto.html?id=${arrayelectronics[i].id}">VER MAS</a>
      </div>`
       
-    }
+    
     section2.innerHTML= electronica
 
       // estilo electronica
 
-      section2.
+    }
+    })
+    
 
-
-   } )
   .catch(function (error){
     console.log(error);
-  }
-
-  )
+  })
 
 
 
