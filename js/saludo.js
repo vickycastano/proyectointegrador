@@ -3,13 +3,19 @@
 let recuperaruser = localStorage.getItem('user')
 let data = JSON.parse(recuperaruser)
 let saludo = document.querySelector('.saludo')
+let ocultar = document.querySelector('.ocultar')
 
 if (data) {
     objetoUsuario = data 
     saludo.innerText = "Bienvenido: " + recuperaruser 
+   // ocultar.style.display = 'none';
+
    
-//ver lo de el logout 
-    console.log(objetoUsuario)
+   
+//ver lo de el logout  y lo de ocultar, xq no funciona? 
+
+
+   
 
 }
 
