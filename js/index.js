@@ -106,3 +106,15 @@ fetch('https://fakestoreapi.com/products/category/electronics')
   }
 
   )
+
+
+
+
+
+
+
+
+
+
+
+

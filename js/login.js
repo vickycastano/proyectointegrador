@@ -1,5 +1,5 @@
 
-let inputemail = document.querySelector('#email')
+let email = document.querySelector('#email')
 let inputcontrasena = document.querySelector('#contrasena') 
 let form = document.querySelector('.formulario')
 
@@ -12,7 +12,7 @@ form.addEventListener('submit', function(e){
 e.preventDefault()
 
 
-if (inputemail.value == '') { 
+if (email.value == '') { 
 alert("Por favor complete el campo email")
 }
 
@@ -24,8 +24,8 @@ if (inputcontrasena.value == '') {
 
 
   }else {
-    user.inputemail = inputemail.value
-    user.inputcontrasena = inputcontrasena.value
+    user.email = email.value
+    //user.inputcontrasena = inputcontrasena.value
     localStorage.setItem('user',JSON.stringify(user))
 this.submit()
   }
