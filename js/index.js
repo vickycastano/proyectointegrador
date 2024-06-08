@@ -82,7 +82,7 @@ fetch('https://fakestoreapi.com/products/category/electronics')
   .then (function (data){
     console.log(data); 
     let arrayelectronics = data;
-    let section = document.querySelector(`.categoriaelectronica`);
+    let section2 = document.querySelector(`.categoriaelectronica`);
     let electronica = [];
     
     for (let i = 0; i <arrayelectronics.length ; i++) {
@@ -95,9 +95,11 @@ fetch('https://fakestoreapi.com/products/category/electronics')
      </div>`
       
     }
+    section2.innerHTML= electronica
 
-    section.innerHTML= electronica
+      // estilo electronica
 
+      section2.
 
 
   })
