@@ -102,7 +102,7 @@ fetch('https://fakestoreapi.com/products/category/electronics')
       section2.
 
 
-  })
+   } )
   .catch(function (error){
     console.log(error);
   }
