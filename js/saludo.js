@@ -27,4 +27,4 @@ estilo.style.marginBottom = '30px'
 
 
 
-//VER como hacer para q solo parezca el user 
+//VER como hacer para q solo parezca el user y no lo de {""}

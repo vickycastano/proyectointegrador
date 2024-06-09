@@ -69,6 +69,8 @@ for (let i = 0; i < descripcion.length; i++) {
   
 }
 
+
+
 })
 .catch(function(error){
   console.log(error)
