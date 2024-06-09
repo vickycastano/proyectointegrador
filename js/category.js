@@ -2,6 +2,8 @@ let queryString = window.location.search;
 let urlParams = new URLSearchParams(queryString);
 let categoria = urlParams.get('category');
 
+
+
 fetch('https://fakestoreapi.com/products/categories')
 
 .then(function(response){
@@ -20,6 +22,8 @@ navegador.innerHTML =  `
   <li> <a href="./category.html?category=${data[3]}">ROPA DE MUJER</a></li>
 </ul>
 ` 
+
+
 })
 .catch(function(error){
   console.log(error)
