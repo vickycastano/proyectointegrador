@@ -16,7 +16,7 @@ if (data) {
 if (data) {
     
     salida.innerHTML =  ` 
-     <a href="">LOGOUT</a>
+     <a href="./js/logout.js">LOGOUT</a>
     ` 
 }
 
