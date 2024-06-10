@@ -8,19 +8,22 @@ let ocultar = document.querySelector('.ocultar')
 if (data) {
     objetoUsuario = data 
     saludo.innerText = "Bienvenido: " + recuperaruser 
-   // ocultar.style.display = 'none';
+    saludo.innerHTML =  ` 
+     <a href="">LOGOUT</a>
+    `  --> funciona pero hace desaparecer lo de arriba 
+    ocultar.style.display = 'none'; // ver 
 
    
    
 //ver lo de el logout  y lo de ocultar, xq no funciona? 
 
 
-   
-
 }
 
-let estilo = document.querySelector('.saludo')
 
+
+// estilo 
+let estilo = document.querySelector('.saludo')
 estilo.style.textAlign ='center'
 estilo.style.color = '#4a362f'
 estilo.style.marginBottom = '30px'
