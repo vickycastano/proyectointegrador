@@ -77,35 +77,31 @@ for (let i = 0; i < descripcion.length; i++) {
 })
 
 // electronica
-fetch('https://fakestoreapi.com/products/category/electronics')
-  .then (function(response){
+  fetch ("https://fakestoreapi.com/products/category/electronics")
+  .then(function(response){
     return response.json();
   })
-  .then (function (data){
-    console.log(data); 
-    let arrayelectronics = data;
-    let section2 = document.querySelector(`.categoriaelectronica`);
-    let electronica = [];
-    
-    for (let i = 0; i <arrayelectronics.length ; i++) {
-      electronica+=` <div>
-      <img src="${arrayelectronics[i].image}" class="im">
-     <h1>${arrayelectronics[i].title}</h1>
-     <p>${arrayelectronics[i].description}</p>
-     <h3>${arrayelectronics[i].price}</h3>
-     <a  href="./producto.html?id=${arrayelectronics[i].id}">VER MAS</a>
-     </div>`
-      
-    
-    section2.innerHTML= electronica
+  .then (function(data){
+    console.log(data);
 
-      // estilo electronica
+    let electronics = data;
+    let sectionElec = document.querySelector(".categoriaelectronica");
+    let productsElec = []
 
+    for (let i = 0; i < electronics.length; i++) {
+      productsElec += `
+      <article>
+        <img src="${electronics[i].image}"alt="foto de ${electronics[i].title}"></img>
+        <h2>${electronics[i].title}</h2>
+        <p>${electronics[i].description}</p>
+        <h3>${electronics[i].price}</h3>
+        <a href="./producto.html?id=${electronics[i].id}">Ver mas</a>
+      </article>
+      `
+      sectionElec.innerHTML=productsElec;
     }
-    })
-    
-
-  .catch(function (error){
+  })
+  .catch (function(error){
     console.log(error);
   })
 
