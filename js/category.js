@@ -1,48 +1,48 @@
-//QueryString
-let QueryString = location.search;
-let queryStringOBJ = new URLSearchParams(QueryString);
+//querystring 
+let queryString = location.search;
+let queryStringOBJ = new URLSearchParams(queryString);
 let category = queryStringOBJ.get("categories");
-console.log(category);
 
- 
-urlcategorias = `https://fakestoreapi.com/products/category/${category}`
-fetch(urlcategorias)
+
+//fetch para que el api se muestre 
+fetch(`https://fakestoreapi.com/products/category/${category}`)
 .then(function(response){
     return response .json();
 })
 .then(function(data){
     console.log(data);
-//    let informacioncategorias = data
+    let informacioncategoria = data;
+    let cambiocategoria = document.querySelector('.categorias')
+    let categoria = [];
 
-//for (let i = 0; i < informacioncategorias.length; i++) {
-//    arraycateogria +=  
-//    `<div>
-// <img src="${informacioncategorias[i].image}" >
-//  <h1>${informacioncategorias[i].title}</h1>
-//  <p>${informacioncategorias[i].description}</p>
-//  <h3>${informacioncategorias[i].price}</h3>
-//  <a  href="./producto.html?id=${informacioncategorias[i].id}">VER MAS</a>
-//  </div>`
-//}
+    for (let i = 0; i < informacioncategoria.length; i++) {
+        categoria += `
+    <div>
+        <img src="${informacioncategoria[i].image}" >
+        <h1>${informacioncategoria[i].title}</h1>
+        <p>${informacioncategoria[i].description}</p>
+        <h3>${informacioncategoria[i].price}</h3>
+        <a  href="./producto.html?id=${informacioncategoria[i].id}">VER MAS</a>
+  </div>
+        `
+        }
 
-
-//section.innerHTML = arraycateogria
+        cambiocategoria.innerHTML = categoria
     
 
-//let navegador = document.querySelector('.navegador1')
 
-//navegador.innerHTML =  `  
-//<ul class="navegador">
-//  <li><a href="./index.html">HOME</a> </li>
-//  <li> <a href="./category.html?category=${informacioncategorias.category="electronics"}">ELECTRONICOS</a></li>
-//  <li><a href="./category.html?category=${informacioncategorias.category="jewelery"}">ACCESSORIOS</li> 
-//  <li> <a href="./category.html?category=${informacioncategorias.category="women's clothing"}">ROPA DE MUJER</a></li>
-//</ul>
-//` 
+//navegador para que vaya a las distintas querystrings 
+let navegador = document.querySelector('.navegador')
 
+navegador.innerHTML =  ` 
+   <li><a href="./index.html">HOME</a></li>
+  <li><a href="./category.html?categories=${informacioncategoria.category="electronics"}">ELECTRONICOS</a></li>
+  <li><a href="./category.html?categories=${informacioncategoria.category="jewelery"}">ACCESSORIOS</a></li>
+  <li><a href="./category.html?categories=${informacioncategoria.category="women's clothing"}">ROPA DE MUJER</a></li>`
 
+   
 
 })
-.catch(function(error){
-console.log(error);
+.catch(function(e){
+    console.log(e);
 })
