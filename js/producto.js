@@ -4,7 +4,7 @@ let qString = location.search; // esto lo trae como cadna de texto, es '?clave=v
 let qStringObj = new URLSearchParams(qString);
 let numId = qStringObj.get("id"); 
 
-let url = 'https://fakestoreapi.com/products/${numId}'
+let url = `https://fakestoreapi.com/products/${numId}`
 
 fetch(url)
 .then(function(response){
@@ -24,7 +24,7 @@ fetch(url)
     imagen.src=data.image;
     categoria.innerText+=data.category;
     precio.innerText+=data.price;
-    carritoBut
+    localStorage.setItem("id",numId); //estoy guardando el numero que es string en un objeto entonces no hace falta  hacer lo de json.stingify y numId = a data.Id
     
 })
 .catch(function(error){
