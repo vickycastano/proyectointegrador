@@ -27,12 +27,14 @@
 <form action="" method="get" autocomplete="off"  class="formulario">
   <h2>datos personales</h2>
     <input class="controles" id="email" type="text" name="email" value="" placeholder="e-mail">
-    <p id="email"></p>
+    <div class="errorEmail"></div>
   <label>
     <input class="tyc" type="checkbox"> 
     <p>Quiero recuperar mi contraseña</p>
+    <div class="errorCheckbox"></div>
   </label>
-    <input class="boton" type="submit" value="recuperar"><br>
+    <button class="boton" type="submit">Recuperar</button> <br>
+    <div class="mostrar"></div>
   <div class="linksformulario">
     <a href="./login.html">Ya tengo cuenta</a> 
   </div>

@@ -154,7 +154,7 @@ div.cajashome.carrito{
 /* carrito*/
 /*  home.html */
   
-div.contenedorpadre{
+/*div.contenedorpadre{
     background-color:#f7f6f2;
     padding-left: 15px;
     padding-right: 15px;
@@ -164,7 +164,7 @@ div.contenedorpadre{
     flex-direction: column;
     justify-content: space-around;
 
-}
+}*/
 img.im{
     height: 100px;
     margin-left:  10px;
