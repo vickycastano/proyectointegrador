@@ -127,7 +127,7 @@ for (let i = 0; i < electronics.length; i++) {
       <div  class = "cajashome">
         <img class="im" src="${electronics[i].image}"alt="foto de ${electronics[i].title}"></img>
         <h2>${electronics[i].title}</h2>
-        <p>${electronics[i].description}</p>
+        <p class="descriphome">${electronics[i].description}</p>
         <h3 class="precio" >${electronics[i].price}</h3>
         <a  class="botoneshome" href="./producto.html?id=${electronics[i].id}">Ver mas</a>
       </div>
