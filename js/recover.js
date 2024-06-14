@@ -4,7 +4,8 @@ let checkbox = document.querySelector(".tyc");
 
 let errorEmail = document.querySelector(".errorEmail");
 let errorCheckbox = document.querySelector(".errorCheckbox");
-let mostrarstrar = document.querySelector(".Mostrar");
+let mostrar = document.querySelector(".Mostrar");
+let mostrar2 = document.querySelector(".Mostrar2");
 
 formulario.addEventListener("submit", function(event){
     event.preventDefault();
@@ -12,18 +13,14 @@ formulario.addEventListener("submit", function(event){
     if (email.value==="") {
         errorEmail.innerText="Por favor escriba su email";
 
-    }else if (checkbox.checked==="") {
-        errorCheckbox.innerText="Por favor acepte el campo Quiero recuperar mi contraseña"
+    }else if (checkbox) {
+        errorCheckbox.innerText="Por favor acepte el campo Quiero recuperar mi contraseña";
     }else {
-        formulario.submit();
-        mostrar.innerText="Recibirás un email con las instrucciones para recuperar tu contraseña"
-        mostrar.innerHTML= `<a href="register.html"></a> `
         
+        this.submit();
     }
-
-
-
-
+    mostrar.innerText="Recibirás un email con las instrucciones para recuperar tu contraseña";
+    mostrar2.innerHTML= `<a href="login.html">Ir al login</a> `;
 
 
 })

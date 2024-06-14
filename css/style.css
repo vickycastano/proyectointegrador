@@ -165,8 +165,14 @@ div.cajashome.carrito{
     justify-content: space-around;
 
 }*/
-img.im{
+/*img.im{
     height: 100px;
+    margin-left:  10px;
+    margin-top: 7px;
+    border: 2px solid #4a362f;
+}*/
+img.im{
+    width: 130px;
     margin-left:  10px;
     margin-top: 7px;
     border: 2px solid #4a362f;
@@ -192,8 +198,9 @@ div.cajashome{
     padding-top:7px;
     border: 2px solid #4a362f;
     border-radius: 10px;
-    margin-right: 15%;
-    margin-left: 15%;
+    width: 60%;
+    margin: 10px;
+   
 }
 
 a.botoneshome{
@@ -224,7 +231,6 @@ h2.tituloindex{
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     color: #4a362f;
 }
 .categoriaelectronica{

@@ -42,8 +42,7 @@ let acesorrios = []
 
 for (let i = 0; i < arrayacesorios.length; i++) {
   acesorrios +=  ` 
-  <div class= "contenedorpadre> 
-  <section class= "Accesorios">
+  
   <div class = "cajashome">
       <img class="im" src="${arrayacesorios[i].image}" >
       <h1>${arrayacesorios[i].title}</h1>
@@ -51,8 +50,7 @@ for (let i = 0; i < arrayacesorios.length; i++) {
       <h3>${arrayacesorios[i].price}</h3>
       <a class= "botoneshome" href="./producto.html?id=${arrayacesorios[i].id}">VER MAS</a>
     </div>
-    </section>
-    </div>
+  
   `
   }
 section.innerHTML = acesorrios
@@ -123,7 +121,7 @@ let productsElec = []
 
 for (let i = 0; i < electronics.length; i++) {
     productsElec += `
-      <section class="Accesorios">
+      
       <div  class = "cajashome">
         <img class="im" src="${electronics[i].image}"alt="foto de ${electronics[i].title}"></img>
         <h2>${electronics[i].title}</h2>
@@ -131,7 +129,6 @@ for (let i = 0; i < electronics.length; i++) {
         <h3 class="precio" >${electronics[i].price}</h3>
         <a  class="botoneshome" href="./producto.html?id=${electronics[i].id}">Ver mas</a>
       </div>
-      </section>
       `
     }
 sectionElec.innerHTML=productsElec;
