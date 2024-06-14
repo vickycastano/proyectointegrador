@@ -22,7 +22,7 @@ if (inputcontrasena.value == '') {
     //guardar la informacion del usuario en el local storage 
     user.email = email.value
     //user.inputcontrasena = inputcontrasena.value
-    localStorage.setItem('user',JSON.stringify(user))
+    localStorage.setItem('user',JSON.stringify(email.value))
 
     // para que no se vaya de pagina si no esta correctamente completo el formulario 
     this.submit()
