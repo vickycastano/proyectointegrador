@@ -25,14 +25,20 @@
 
 <form class="formulario">
  <h2>datos personales</h2>
-   <input class="controles" type="text" name="e-mail" value="" placeholder="e-mail">
-   <input class="controles" type="password" name="contrasena" value="" placeholder="contraseña">
-   <input class="controles" type="password" name="contrasena" value="" placeholder="repetir contraseña">
+  <input class="controles email" type="text" name="e-mail" value="" placeholder="e-mail">
+   <div class="errorEmail"></div>
+   <input class="controles contrasena" type="password" name="contrasena" value="" placeholder="contraseña">
+   <div class="errorPass"></div>
+   <input class="controles contrasena2" type="password" name="contrasena" value="" placeholder="repetir contraseña">
+   <div class="errorPass2"></div>
   <label class="parafo">
-    <input class="tyc" type="checkbox">
+   <input class="tyc" type="checkbox">
     Estoy deacuerdo con los Terminoss y Condiciones
   </label>
-   <input class="boton" type="submit" value="registrarme"><br>
+
+   <button type="submit">Registrarme</button> <br>
+
+
   <div class="linksformulario">
     <a href="./login.html">Ya tengo cuenta</a> 
   </div>
