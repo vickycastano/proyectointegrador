@@ -301,6 +301,14 @@ h2.titulocategory{
 body.backgroundcategory{
     background-color:#f7f6f2;
 }
+
+.categorias{
+display:flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: space-around;
+color: #4a362f;
+}
 /*category*/
 
 

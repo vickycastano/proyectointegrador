@@ -17,12 +17,12 @@ fetch(`https://fakestoreapi.com/products/category/${category}`)
 
     for (let i = 0; i < informacioncategoria.length; i++) {
         categoria += `
-    <div>
-        <img src="${informacioncategoria[i].image}" >
+    <div  class = "cajashome">
+        <img  class="im" src="${informacioncategoria[i].image}" >
         <h1>${informacioncategoria[i].title}</h1>
         <p>${informacioncategoria[i].description}</p>
-        <h3>${informacioncategoria[i].price}</h3>
-        <a  href="./producto.html?id=${informacioncategoria[i].id}">VER MAS</a>
+        <h3 class="precio" >${informacioncategoria[i].price}</h3>
+        <a  class="botoneshome" href="./producto.html?id=${informacioncategoria[i].id}">VER MAS</a>
   </div>
         `
         }

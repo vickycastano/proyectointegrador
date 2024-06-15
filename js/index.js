@@ -55,53 +55,6 @@ for (let i = 0; i < arrayacesorios.length; i++) {
   }
 section.innerHTML = acesorrios
 
-//estilo acesorios 
-
-//section.style.display = 'flex'
-//section.style.flexDirection = 'row'
-//section.style.flexWrap = 'nowrap'
-//section.style.justifyContent = 'space-between'
-
-
-//div = document.querySelectorAll('.categoriaacesorios div')
-//for (let i = 0; i < div.length; i++) {
-//div[i].style.margin = '10px'
-//div[i].style.width = '20%'
-//div[i].style.paddingLeft = '10px'
-//div[i].style.paddingBottom = '10px'
-//div[i].style.paddingRight = '13px'
-//div[i].style.paddingTop = '7px'
-//div[i].style.border = '2px solid #4a362f'
-//div[i].style.marginTop = '10px'
-//div[i].style.backgroundColor = '#978f84'
-//div[i].style.borderRadius = '10px'
-//div[i].style.textAlign = "center"
-
-//}
-
-//let image = document.querySelectorAll('.categoriaacesorios div img')
-// for (let i = 0; i < image.length; i++) {
-//  image[i].style.width = '270px'
-//  image[i].style.height = '200px'
-//  image[i].style.textAlign = 'center'
-//  image[i].style.marginTop = '20px'
-//}
-
-
-//let precio = document.querySelectorAll('.categoriaacesorios div h3')
-//for (let i = 0; i < precio.length; i++) {
-//  precio[i].style.marginBottom = '20px'
-//  precio[i].style.marginTop = '15px'
-  
-//}
-
-//let descripcion = document.querySelectorAll('.categoriaacesorios div p')
-//for (let i = 0; i < descripcion.length; i++) {
-// descripcion[i].style.marginTop = '20px'
-  
-//}
-
-
 })
  .catch(function(error){
   console.log(error)
