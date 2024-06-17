@@ -92,3 +92,33 @@ sectionElec.innerHTML=productsElec;
 })
 
 //ROPA DE MUJER 
+
+fetch('https://fakestoreapi.com/products/category/women\'s clothing')
+.then(function(response){
+  return response.json();
+})
+.then(function(data){
+console.log(data)
+
+let selecionarropa = document.querySelector('.categoriaropamujer')
+informacionropam = data 
+ropamujer = []
+
+for (let i = 0; i < informacionropam.length; i++) {
+  ropamujer += `
+      <div  class = "cajashome">
+        <img class="im" src="${informacionropam[i].image}" >
+        <h2>${informacionropam[i].title}</h2>
+        <p class="descriphome">${informacionropam[i].description}</p>
+        <h3 class="precio" >${informacionropam[i].price}</h3>
+        <a  class="botoneshome" href="./producto.html?id=${informacionropam[i].id}">Ver mas</a>
+      </div>
+      `
+}
+
+selecionarropa.innerHTML = ropamujer 
+
+})
+.catch(function(error){
+console.log(error)
+})

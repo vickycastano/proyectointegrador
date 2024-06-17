@@ -241,6 +241,14 @@ h2.tituloindex{
     color: #4a362f;
 }
 
+.categoriaropamujer{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #4a362f;  
+}
+
 /* home.html */
 
 /* detalle de porducto */
