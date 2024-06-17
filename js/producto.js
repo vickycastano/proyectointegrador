@@ -1,6 +1,6 @@
-// NAVEGADOR (sin esto en index.js, hace que cuando tocas una categoria entre a una pagina en blanco 
+// NAVEGADOR (sin esto en producto.js, hace que cuando tocas una categoria entre a una pagina en blanco 
 //(solo el hedear y footer sin la informacion de los apis) y
-// tengas que volver a tocar el boton de la categoria para que se muestre, por eso neceista esar en el js de index,
+// tengas que volver a tocar el boton de la categoria para que se muestre, por eso neceista esar en el js de producto,
 // asi te lleva directo a las categorias sin ningun problema)
 
 let queryString = location.search;

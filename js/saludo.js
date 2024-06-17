@@ -1,5 +1,4 @@
-//donde lo vicnulo(?)--> TODAS LAS PAGINAS (?)  class="saludo" y class="logout"
-// --> VER como hacer para q solo parezca el user y no lo de {""}
+//  class="saludo" y class="logout"
 
 //recuperar la informacion que el usuario agrego en el formulario 
 let recuperaruser = localStorage.getItem('user')
