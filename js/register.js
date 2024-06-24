@@ -39,6 +39,10 @@ let errorPass2 = document.querySelector(".errorPass2")
 formulario.addEventListener("submit", function (event){
     event.preventDefault();
 
+    document.querySelector(".errorEmail").innerText="";
+    document.querySelector(".errorPass").innerText="";
+    document.querySelector(".errorPass2").innerText="";
+
     if (email.value==="") {
         errorEmail.innerText="Por favor complete el campo";
         
