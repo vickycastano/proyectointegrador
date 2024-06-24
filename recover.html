@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>recuperarcontrasena</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>recuperarcontrasena</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="fondo">
     
 <header class="fondoheader">
-    <p class="linksheader"><a href="./cart.html">Carrito</a> ͏ ͏<a href="./login.html">Login</a> ͏ ͏<a href="./register.html">Registarte</a></p>
-      <div class="logo1">
-            <img class="logo" src="./img/logo/logo.png" alt="logo">
-      </div>
- <nav class="navegador1"> 
-     <ul class="navegador">
-     
-     /ul>
- </nav>
+  <p class="linksheader">
+  <a href="./cart.html">Carrito</a> 
+  <a href="./login.html">Login</a> 
+  <a href="./register.html">Registarte</a></p>
+  <div class="logo1">
+    <img class="logo" src="./img/logo/logo.png" alt="logo">
+  </div>
+  <nav class="navegador1"> 
+     <ul class="navegador"></ul>
+  </nav>
 </header> 
 
-
-<form action="" method="get" autocomplete="off"  class="formulario">
-  <h2>datos personales</h2>
-    <input class="controles" id="email" type="text" name="email" value="" placeholder="e-mail">
-    <div class="errorEmail"></div>
-  <label>
-    <input class="tyc" type="checkbox"> 
-    <p>Quiero recuperar mi contraseña</p>
-    <div class="errorCheckbox"></div>
-  </label>
-    <button class="boton" type="submit">Recuperar</button> <br>
-    <div class="mostrar"></div>
-    <div class="mostrar2"></div>
-  <div class="linksformulario">
-    <a href="./login.html">Ya tengo cuenta</a> 
+<main>
+  <div class="formulario">
+    <h2>datos personales</h2>
+    <form action="recover.html" method="get" autocomplete="off" >
+  
+      <input class="controles" id="email" type="text" name="email" value="" placeholder="e-mail">
+      <div class="errorEmail"></div>
+    
+      <input class="tyc" id="recuperarr" type="checkbox"> 
+      <label for="recuperarr">Quiero recuperar mi contraseña</label>
+      <div class="errorCheckbox"></div>
+    
+      <button class="boton" type="submit">Recuperar</button> <br>
+      <div class="mostrar"></div>
+      <div class="mostrar2"></div>
+    <div class="linksformulario">
+      <a href="./login.html">Ya tengo cuenta</a> 
+    </div>
+    </form>
   </div>
-</form>
+</main>
 
 <footer class="footer">
   <p> | Victoria Castaño | Nicole de Leone | Magdalena Wiegers | </p>
