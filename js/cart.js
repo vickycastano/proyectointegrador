@@ -1,7 +1,4 @@
-// NAVEGADOR (sin esto en cart.js, hace que cuando tocas una categoria entre a una pagina en blanco 
-//(solo el hedear y footer sin la informacion de los apis) y
-// tengas que volver a tocar el boton de la categoria para que se muestre, por eso neceista esar en el js de cart,
-// asi te lleva directo a las categorias sin ningun problema)
+//NAVEGADOR PARA QUE SEA INTERACTIVO 
 
 let queryString = location.search;
 let queryStringOBJ = new URLSearchParams(queryString);

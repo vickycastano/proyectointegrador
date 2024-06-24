@@ -1,7 +1,4 @@
-// NAVEGADOR (sin esto en index.js, hace que cuando tocas una categoria entre a una pagina en blanco 
-//(solo el hedear y footer sin la informacion de los apis) y
-// tengas que volver a tocar el boton de la categoria para que se muestre, por eso neceista esar en el js de index,
-// asi te lleva directo a las categorias sin ningun problema)
+// NAVEGADOR para que sea interactivo 
 
 let queryString = location.search;
 let queryStringOBJ = new URLSearchParams(queryString);

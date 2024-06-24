@@ -1,8 +1,4 @@
-// NAVEGADOR (sin esto en producto.js, hace que cuando tocas una categoria entre a una pagina en blanco 
-//(solo el hedear y footer sin la informacion de los apis) y
-// tengas que volver a tocar el boton de la categoria para que se muestre, por eso neceista esar en el js de producto,
-// asi te lleva directo a las categorias sin ningun problema)
-
+// NAVEGADOR para que sea interactivo 
 let queryString = location.search;
 let queryStringOBJ = new URLSearchParams(queryString);
 let category = queryStringOBJ.get("categories");
@@ -27,6 +23,8 @@ navegador.innerHTML =  `
 .catch(function(e){
     console.log(e);
 })
+
+// PRODUCTO 
 
 // traer id de producto seleccionado
 let qString = location.search; // esto lo trae como cadna de texto, es '?clave=valor" por ejemplo ?id=3

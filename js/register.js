@@ -1,7 +1,4 @@
-// NAVEGADOR (sin esto en register.js, hace que cuando tocas una categoria entre a una pagina en blanco 
-//(solo el hedear y footer sin la informacion de los apis) y
-// tengas que volver a tocar el boton de la categoria para que se muestre, por eso neceista esar en el js de regisro,
-// asi te lleva directo a las categorias sin ningun problema)
+// NAVEGADOR para que sea interactivo 
 
 let queryString = location.search;
 let queryStringOBJ = new URLSearchParams(queryString);
@@ -28,6 +25,7 @@ navegador.innerHTML =  `
     console.log(e);
 })
 
+//FORMULARIO 
 
 let formulario = document.querySelector(".formulario");
 let email = document.querySelector(".email")
