@@ -15,6 +15,7 @@ let desaparecer1 = document.querySelector('.ocultar1')
 
 if (data) {
     saludo.innerText = "Bienvenido: " + recuperaruser + ''
+    // bienvenida con el nombre 
 }
 
 if (data) {
@@ -22,11 +23,13 @@ if (data) {
     salida.innerHTML =  ` 
      <a  class = "logout" href=" ">LOGOUT</a>
     ` 
+    //link con el logout 
 }
 
 if (data) {
     desaparecer.style.display = 'none'  
     desaparecer1.style.display = 'none'  
+    // desaparecer cosas de el header 
 }
 
 

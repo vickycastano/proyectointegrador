@@ -38,12 +38,11 @@ e.preventDefault()
 
 if (email.value == '') { 
 alert("Por favor complete el campo email")
-}
 
-if (inputcontrasena.value == '') {
+}else if (inputcontrasena.value == '') {
     alert("Por favor complete el campo contraseña")
    
-  }else if (inputcontrasena.value.length <6 ){
+}else if (inputcontrasena.value.length <6 ){
     alert("La contraseña debe tener al menos 6 caracteres" )
 
 }else {
