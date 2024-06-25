@@ -44,7 +44,7 @@ for (let i = 0; i < arrayacesorios.length; i++) {
       <img class="im" src="${arrayacesorios[i].image}" >
       <h1>${arrayacesorios[i].title}</h1>
       <p class= "description" >${arrayacesorios[i].description}</p>
-      <h3>${arrayacesorios[i].price}</h3>
+      <h3 class="precio"> $${arrayacesorios[i].price}</h3>
       <a class= "botoneshome" href="./producto.html?id=${arrayacesorios[i].id}">VER MAS</a>
     </div>
   
@@ -76,7 +76,7 @@ for (let i = 0; i < electronics.length; i++) {
         <img class="im" src="${electronics[i].image}"alt="foto de ${electronics[i].title}"></img>
         <h2>${electronics[i].title}</h2>
         <p class="descriphome">${electronics[i].description}</p>
-        <h3 class="precio" >${electronics[i].price}</h3>
+        <h3 class="precio" > $${electronics[i].price}</h3>
         <a  class="botoneshome" href="./producto.html?id=${electronics[i].id}">Ver mas</a>
       </div>
       `
@@ -107,7 +107,7 @@ for (let i = 0; i < informacionropam.length; i++) {
         <img class="im" src="${informacionropam[i].image}" >
         <h2>${informacionropam[i].title}</h2>
         <p class="descriphome">${informacionropam[i].description}</p>
-        <h3 class="precio" >${informacionropam[i].price}</h3>
+        <h3 class="precio" > $${informacionropam[i].price}</h3>
         <a  class="botoneshome" href="./producto.html?id=${informacionropam[i].id}">Ver mas</a>
       </div>
       `
